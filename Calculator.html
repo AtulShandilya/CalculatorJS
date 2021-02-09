@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> calculator</title>
+    <link rel="stylesheet" type="text/css" href="Style.css"/>
+
+</head>
+<body id=body>
+<header>
+    <h4 id=screenheader>calculator</h4>
+    <div id="Calculatorscreen">
+        <h1 id="CalcScreen">0</h1>
+
+    </div>
+
+</header>
+<main id=main>
+    <section class="Operation">
+
+        <button class="keys shadow top" onclick="keyPress(event)">AC</button>
+        <button class="keys shadow top  " onclick="keyPress(event)">+/-</button>
+        <button class="keys shadow top  " onclick="keyPress(event)">%</button>
+        <button class="keys shadow right  " onclick="keyPress(event)">/</button>
+        <button class="keys shadow " onclick="keyPress(event)">7</button>
+        <button class="keys shadow " onclick="keyPress(event)">8</button>
+        <button class="keys shadow " onclick="keyPress(event)">9</button>
+        <button class="keys shadow right  " onclick="keyPress(event)" >*</button>
+        <button class="keys shadow  " onclick="keyPress(event)">4</button>
+        <button class="keys shadow  " onclick="keyPress(event)">5</button>
+        <button class="keys shadow  " onclick="keyPress(event)">6</button>
+        <button class="keys shadow right  " onclick="keyPress(event)">+</button>
+        <button class="keys shadow  " onclick="keyPress(event)">1</button>
+        <button class="keys shadow  " onclick="keyPress(event)">2</button>
+        <button class="keys shadow  " onclick="keyPress(event)">3</button>
+        <button class="keys shadow right  " onclick="keyPress(event)">-</button>
+        <button class="keys zero shadow" onclick="keyPress(event)">0</button>
+        <button class="keys shadow " onclick="keyPress(event)">.</button>
+        <button class="keys shadow right " onclick="keyPress(event)">=</button>
+    </section>
+
+</main>
+<script type="text/javascript" src="Calculator.js"> changeLayout();  </script>
+
+
+</body>
+
+</html>
